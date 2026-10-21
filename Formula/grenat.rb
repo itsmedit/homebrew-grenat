@@ -1,28 +1,28 @@
 class Grenat < Formula
   desc "Agentic programming language: Ruby's syntax, Rust's speed"
   homepage "https://github.com/itsmedit/grenat"
-  version "0.1.2"
+  version "0.1.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/itsmedit/grenat/releases/download/v0.1.2/grenat-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "6ef473cdb9364b2c67ff67abee9ceee256d547fdabdb0909cef5a1caefa10a78"
+      url "https://github.com/itsmedit/grenat/releases/download/v0.1.3/grenat-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "119131c50f1588187542f327ea530e5ad88fd07212ca4b0bc273a185ffa084d1"
     end
     on_intel do
-      url "https://github.com/itsmedit/grenat/releases/download/v0.1.2/grenat-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "d38147818bf9e8ac47b33dfb972e4bd189b0270d23dad8d3365c5533a5d66077"
+      url "https://github.com/itsmedit/grenat/releases/download/v0.1.3/grenat-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "8178ed671081c9f5b3134a17b1f648c2397572e29c222a93349a3913e3cdc4d4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/itsmedit/grenat/releases/download/v0.1.2/grenat-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7a2061ca738ad4540c38816c52584a8135a17b60d05ddee7b5cee9adc1ec4f92"
+      url "https://github.com/itsmedit/grenat/releases/download/v0.1.3/grenat-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "79975ee7e8ce02c3718e6a0f346204509da9ed62c12fe2931a64234bddbbbc78"
     end
     on_intel do
-      url "https://github.com/itsmedit/grenat/releases/download/v0.1.2/grenat-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bb0fc5ba3470e0e79bd93d100eb535357a9fa74369114a7c350a11c71a53b093"
+      url "https://github.com/itsmedit/grenat/releases/download/v0.1.3/grenat-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f84520f56036790346f04fe8b6cffb8163b049246c577a15eeb28d1024e94938"
     end
   end
 
